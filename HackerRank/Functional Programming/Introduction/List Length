@@ -1,0 +1,9 @@
+def f(arr:List[Int]):Int = {
+    var result =0
+    var these = arr
+    while (!these.isEmpty) {
+        result = 1+result
+        these = these.tail
+    }
+  result  
+}
